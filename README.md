@@ -20,8 +20,8 @@ Ocean simulation is a marine ecosystem simulation written in C++ using the **SFM
 2. Make sure the path to SFML is correctly specified in `CMakeLists.txt`:
 ```
 cmake
-set(CMAKE_PREFIX_PATH "C:/Users/Sofia/Downloads/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1")
-set(SFML_DIR "C:/Users/Sofia/Downloads/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/cmake/SFML")
+set(CMAKE_PREFIX_PATH "path_to_file/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1")
+set(SFML_DIR "path_to_file/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/cmake/SFML")
 ```
 3. Create a folder for the build:
 ```
